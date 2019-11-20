@@ -20,7 +20,16 @@ function loopThrough() {
   }
 };
 
+function changeLayer() {
+  const swap = () => {
+    layerOne.classList.add('hide');
+    layerTwo.classList.remove('hide');
+  }
+  setTimeout(swap, this.textContent.length * 2 * 1000);
+};
+
 //The Event Listener
 for (let i = 0; i < myBoxes.length; i++) {
   myBoxes[i].addEventListener('click', loopThrough);
+  myBoxes[i].addEventListener('click', changeLayer);
 };
