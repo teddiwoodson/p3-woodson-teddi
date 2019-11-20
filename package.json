@@ -1,0 +1,24 @@
+{
+  "name": "p3-woodson-teddi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teddiwoodson/p3-woodson-teddi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teddiwoodson/p3-woodson-teddi/issues"
+  },
+  "homepage": "https://github.com/teddiwoodson/p3-woodson-teddi#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
