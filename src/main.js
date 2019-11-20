@@ -10,11 +10,18 @@ const myBoxesLayerThree = document.getElementsByClassName('block-3');
 
 //The Functionality
 function loopThrough() {
-
   const changeColor = () => {
     this.classList.toggle('red');
   };
+  for (let i = 0; i < this.textContent.length * 2; i++) {
+    setTimeout(changeColor, i * 1000);
+  }
+};
 
+function loopThroughTwo() {
+  const changeColor = () => {
+    this.classList.toggle('red');
+  };
   for (let i = 0; i < this.textContent.length * 2; i++) {
     setTimeout(changeColor, i * 1000);
   }
@@ -28,8 +35,10 @@ function changeLayer() {
   setTimeout(swap, this.textContent.length * 2 * 1000);
 };
 
+
 //The Event Listener
 for (let i = 0; i < myBoxes.length; i++) {
   myBoxes[i].addEventListener('click', loopThrough);
   myBoxes[i].addEventListener('click', changeLayer);
+  myBoxesLayerTwo[i].addEventListener('click', loopThroughTwo);
 };
