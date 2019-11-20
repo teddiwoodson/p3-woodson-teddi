@@ -17,3 +17,6 @@ ul li p {
   background-color: #333;
   transition: background-color 1000ms;
 }
+.hide {
+  display: none;
+}
