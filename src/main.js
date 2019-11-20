@@ -46,10 +46,34 @@ function changeLayerTwo() {
   setTimeout(swap, this.textContent.length * 2 * 1000);
 };
 
+
 //The Event Listener
 for (let i = 0; i < myBoxes.length; i++) {
   myBoxes[i].addEventListener('click', loopThrough);
   myBoxes[i].addEventListener('click', changeLayer);
   myBoxesLayerTwo[i].addEventListener('click', loopThroughTwo);
   myBoxesLayerTwo[i].addEventListener('click', changeLayerTwo);
+};
+
+//quotes
+var quotes = [
+  'this is quote 1',
+  'this is quote 2',
+  'this is quote 3',
+  'this is quote 4',
+  'this is quote 5',
+  'this is quote 6',
+  'this is quote 7',
+  'this is quote 8',
+  'this is quote 9',
+  'this is quote 10'
+]
+
+function newQuote(){
+  let randomNumber = Math.floor(Math.random() * (quotes.length));
+  document.getElementById('quote-display').innerHTML= quotes[randomNumber];
+};
+
+for (let i = 0; i < myBoxesLayerThree.length; i++) {
+  myBoxesLayerThree[i].addEventListener('click', newQuote);
 };
