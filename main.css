@@ -1,0 +1,19 @@
+/* Main Menu Styling */
+li {
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+  margin: 1%;
+  margin-top: 15%;
+  border: 1px solid black;
+}
+ul li p {
+  padding: 15%;
+  margin: 0;
+  background-color: #fff;
+  transition: background-color 1000ms;
+}
+.red {
+  background-color: #333;
+  transition: background-color 1000ms;
+}
