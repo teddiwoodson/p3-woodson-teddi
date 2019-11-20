@@ -1,5 +1,10 @@
 //Global Varibales
+//Layer one
+const layerOne = document.getElementById('layer-one');
 const myBoxes = document.getElementsByClassName('block');
+
+//Layer two
+const layerTwo = document.getElementById('layer-two');
 const myBoxesLayerTwo = document.getElementsByClassName('block-2');
 const myBoxesLayerThree = document.getElementsByClassName('block-3');
 
