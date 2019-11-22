@@ -11,6 +11,9 @@ const myBoxesLayerTwo = document.getElementsByClassName('block-2');
 const layerThree = document.getElementById('layer-three');
 const myBoxesLayerThree = document.getElementsByClassName('block-3');
 
+//LayerFour
+const layerFour = document.getElementById('layer-four');
+
 //The Functionality
 function loopThrough() {
   const changeColor = () => {
@@ -46,6 +49,14 @@ function changeLayerTwo() {
   setTimeout(swap, this.textContent.length * 2 * 1000);
 };
 
+function changeLayerThree() {
+  const swap = () => {
+    layerThree.classList.add('hide');
+    layerFour.classList.remove('hide');
+  }
+  setTimeout(swap, 1000);
+};
+
 
 //The Event Listener
 for (let i = 0; i < myBoxes.length; i++) {
@@ -53,10 +64,11 @@ for (let i = 0; i < myBoxes.length; i++) {
   myBoxes[i].addEventListener('click', changeLayer);
   myBoxesLayerTwo[i].addEventListener('click', loopThroughTwo);
   myBoxesLayerTwo[i].addEventListener('click', changeLayerTwo);
+  myBoxesLayerThree[i].addEventListener('click', changeLayerThree);
 };
 
 //quotes
-var quotes = [
+let quotes = [
   'this is quote 1',
   'this is quote 2',
   'this is quote 3',
@@ -73,6 +85,7 @@ function newQuote(){
   let randomNumber = Math.floor(Math.random() * (quotes.length));
   document.getElementById('quote-display').innerHTML= quotes[randomNumber];
 };
+
 
 for (let i = 0; i < myBoxesLayerThree.length; i++) {
   myBoxesLayerThree[i].addEventListener('click', newQuote);
