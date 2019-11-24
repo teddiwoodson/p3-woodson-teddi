@@ -6,8 +6,6 @@ const myBoxes = document.getElementsByClassName('block');
 //Layer two
 const layerTwo = document.getElementById('layer-two');
 const myBoxesLayerTwo = document.getElementsByClassName('block-2');
-const myNumber = document.getElementsByClassName('block-2').innerHTML;
-console.log(myNumber);
 
 //Layer three
 const layerThree = document.getElementById('layer-three');
@@ -30,7 +28,7 @@ function loopThroughTwo() {
   const changeColor = () => {
     this.classList.toggle('red');
   };
-  for (let i = 0; i < Number(myNumber) * 2; i++) {
+  for (let i = 0; i < Number(this.textContent) * 2; i++) {
     setTimeout(changeColor, i * 1000);
   }
 };
