@@ -28,7 +28,7 @@ function loopThroughTwo() {
   const changeColor = () => {
     this.classList.toggle('red');
   };
-  for (let i = 0; i < Number(this.textContent) * 2; i++) {
+  for (let i = 0; i < this.textContent.length * 2; i++) {
     setTimeout(changeColor, i * 1000);
   }
 };
@@ -69,11 +69,11 @@ for (let i = 0; i < myBoxes.length; i++) {
 
 //quotes
 let quotes = [
-  'this is quote 1',
-  'this is quote 2',
-  'this is quote 3',
-  'this is quote 4',
-  'this is quote 5',
+  'Kevin Malone : I just want to lie on the beach and eat hot dogs. That’s all I’ve ever wanted.',
+  'Michael Scott : Why are you the way that you are?',
+  'You cannot love life until you live the life you love.',
+  'A very attractive person has a message for you.',
+  'Kevin Malone:I have very little patience for stupidity.',
   'this is quote 6',
   'this is quote 7',
   'this is quote 8',
@@ -85,7 +85,6 @@ function newQuote(){
   let randomNumber = Math.floor(Math.random() * (quotes.length));
   document.getElementById('quote-display').innerHTML= quotes[randomNumber];
 };
-
 
 for (let i = 0; i < myBoxesLayerThree.length; i++) {
   myBoxesLayerThree[i].addEventListener('click', newQuote);
