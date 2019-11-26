@@ -25,11 +25,10 @@ function loopThrough() {
 };
 
 function loopThroughTwo() {
-  const changeColor = () => {
-    this.classList.toggle('red');
-  };
-  for (let i = 0; i < parseInt(this.textContent) * 2; i++) {
-    setTimeout(changeColor, i * 1000);
+  const changeColorTwo = () => this.classList.toggle('red');
+
+  for (let i = 0; i < Number(this.textContent) * 2; i++) {
+    setTimeout(changeColorTwo, i * 1000);
   }
 };
 
@@ -62,8 +61,14 @@ function changeLayerThree() {
 for (let i = 0; i < myBoxes.length; i++) {
   myBoxes[i].addEventListener('click', loopThrough);
   myBoxes[i].addEventListener('click', changeLayer);
+};
+
+for (let i = 0; i < myBoxesLayerTwo.length; i++) {
   myBoxesLayerTwo[i].addEventListener('click', loopThroughTwo);
   myBoxesLayerTwo[i].addEventListener('click', changeLayerTwo);
+};
+
+for (let i = 0; i < myBoxesLayerThree.length; i++) {
   myBoxesLayerThree[i].addEventListener('click', changeLayerThree);
 };
 
