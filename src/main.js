@@ -45,7 +45,7 @@ function changeLayerTwo() {
     layerTwo.classList.add('hide');
     layerThree.classList.remove('hide');
   }
-  setTimeout(swap, this.textContent.length * 2 * 1000);
+  setTimeout(swap, Number(this.textContent) * 2 * 1000);
 };
 
 function changeLayerThree() {
