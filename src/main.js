@@ -74,15 +74,30 @@ for (let i = 0; i < myBoxesLayerThree.length; i++) {
 
 //quotes
 let quotes = [
-  'A person of words and not deeds is like a garden full of weeds.',
-  'A pleasant surprise is waiting for you.',
-  'A short pencil is usually better than a long memory any day.',
-  'A small donation is call for. It’s the right thing to do.',
-  'A smile is your personal welcome mat.',
-  'A smooth long journey! Great expectations.',
-  'A truly rich life contains love and art in abundance.',
-  'Accept something that you cannot change, and you will feel better.',
-  'Adventure can be real happiness.',
+  'Im sorry that people are so jealous of me. But I cant help it that Im popular. — Gretchen Wieners',
+  'Four for you Glen Coco! You go, Glen Coco! — Damian',
+  'That is so fetch! — Gretchen Wieners',
+  'You wanna do something fun? Wanna go to Taco Bell? — Karen Smith',
+  'So you have your cousins, and then you have your first cousins, and then you have your second cousins... — Karen Smith',
+  'You cant sit with us! — Gretchen Wieners',
+  'Theres a 30 percent chance that its already raining. — Karen Smith',
+  'On Wednesdays we wear pink! — Karen Smith',
+  'Its not my fault youre, like, in love with me or something! — Cady Heron',
+  'Im not like a regular mom, Im a cool mom! — Mrs. George',
+  'Get in loser, were going shopping. — Regina George',
+  'Thats why her hair is so big. Its full of secrets. — Damian',
+  'I cant go out tonight *fake coughs*. Im sick. — Karen Smith',
+  'Im a mouse, duh! — Karen Smith',
+  'She doesnt even go here! — Damian',
+  'Is butter a carb? — Regina George',
+  'Your moms chest hair! — Janis Ian',
+  'I wish we could all get along like we used to in middle school. I wish I could bake a cake filled with rainbows and smiles and everyone would eat and be happy. — Crying Girl',
+  'The limit does not exist. — Cady Heron',
+  'Yo, yo, yo. All you sucka MCs aint got nothing on me. — Kevin G',
+  'Raise your hand if you have ever been personally victimized by Regina George. — Ms. Norbury',
+  'There are two kinds of evil people in this world. Those who do evil stuff and those who see evil stuff being done and dont try to stop it. — Janis Ian',
+
+
 ]
 
 function newQuote(){
