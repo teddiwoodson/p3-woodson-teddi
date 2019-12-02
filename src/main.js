@@ -74,16 +74,15 @@ for (let i = 0; i < myBoxesLayerThree.length; i++) {
 
 //quotes
 let quotes = [
-  'this is quote 1',
-  'this is quote 2',
-  'this is quote 3',
-  'this is quote 4',
-  'this is quote 5',
-  'this is quote 6',
-  'this is quote 7',
-  'this is quote 8',
-  'this is quote 9',
-  'this is quote 10'
+  'A person of words and not deeds is like a garden full of weeds.',
+  'A pleasant surprise is waiting for you.',
+  'A short pencil is usually better than a long memory any day.',
+  'A small donation is call for. It’s the right thing to do.',
+  'A smile is your personal welcome mat.',
+  'A smooth long journey! Great expectations.',
+  'A truly rich life contains love and art in abundance.',
+  'Accept something that you cannot change, and you will feel better.',
+  'Adventure can be real happiness.',
 ]
 
 function newQuote(){
