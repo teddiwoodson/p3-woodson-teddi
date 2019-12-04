@@ -42,3 +42,12 @@ button {
   border: 1px solid black;
   color: #ff69b4;
 }
+#quote-display{
+  margin: auto;
+  background-color: white;
+  border: 1px solid black;
+  padding: 5%;
+  max-width: 30%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
