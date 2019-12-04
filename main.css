@@ -22,13 +22,14 @@ li {
   border: 1px solid black;
 }
 ul li p {
-  padding: 15%;
+  padding: 10%;
   margin: 0;
   background-color: #fff;
   transition: background-color 1000ms;
+  font-size: 36px;
 }
 .red {
-  background-color: #333;
+  background-color: #FF198C;
   transition: background-color 1000ms;
 }
 .hide {
@@ -50,4 +51,16 @@ button {
   max-width: 30%;
   margin-top: 5%;
   margin-bottom: 5%;
+}
+#creamy {
+  color: #ff69b4;
+}
+#flamingo {
+  color: #fca3b7;
+}
+#blush {
+  color: #f4cccc;
+}
+#taffy {
+  color: #f987c5;
 }
